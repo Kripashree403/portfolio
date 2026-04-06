@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krip@shree | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-flex">
+            <a href="#home" class="logo">Krip<span>@</span>shree</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certs">Certifications</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <h4 class="fade-in">Hello, I'm</h4>
+                <h1 class="name-creative">Kripashree<span>✨</span></h1>
+                <h2 class="typing-text"></h2> <!-- Filled by JS -->
+                <p>Turning complex data into smart solutions. Specializing in Python, Machine Learning, and IoT development.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">Explore Projects</a>
+                    <a href="#resume" class="btn btn-outline">My Resume</a>
+                </div>
+            </div>
+            <div class="hero-img">
+                <div class="blob-frame">
+                    <img src="profile.jpeg" alt="Kripashree Profile">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section (Interactive) -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-flex">
+                <div class="about-content animate-left">
+                    <h3>My Journey</h3>
+                    <p>I am a motivated MCA student at Canara College, Mangalore, with a background in BCA. I thrive at the intersection of <strong>Software Development</strong> and <strong>Artificial Intelligence</strong>.</p>
+                    <p>I am open to diverse roles that contribute to organizational success while expanding my technical horizons.</p>
+                </div>
+                
+                <div class="interactive-education animate-right">
+                    <h3>Education</h3>
+                    <div class="edu-card">
+                        <div class="edu-info">
+                            <h4>MCA - 2024-Present</h4>
+                            <p>Canara College, Mangalore</p>
+                        </div>
+                        <div class="edu-badge">Pursuing</div>
+                    </div>
+                    <div class="edu-card">
+                        <div class="edu-info">
+                            <h4>BCA - 2021-2024</h4>
+                            <p>Dr. P. Dayananda Pai Govt. College</p>
+                        </div>
+                        <div class="edu-badge">92%</div>
+                    </div>
+                    <div class="edu-card">
+                        <div class="edu-info">
+                            <h4>PUC - 2019-2021</h4>
+                            <p>Dr. NSAM PU College</p>
+                        </div>
+                        <div class="edu-badge">95%</div>
+                    </div>
+                    <div class="edu-card">
+                        <div class="edu-info">
+                            <h4>SSLC</h4>
+                            <p>GHS Nalyapadav</p>
+                        </div>
+                        <div class="edu-badge">90%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section (All 6) -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="p-card"><div class="p-year">2026</div><h3>Smart Rainwater Harvesting</h3><p>IoT system with Arduino monitoring water levels.</p><div class="p-tags"><span>Arduino</span><span>Flask</span></div></div>
+                <div class="p-card"><div class="p-year">2025</div><h3>EV Price Prediction</h3><p>AI/ML system using Random Forest for EV pricing.</p><div class="p-tags"><span>Python</span><span>ML</span></div></div>
+                <div class="p-card"><div class="p-year">2025</div><h3>Smart Parking System</h3><p>Arduino system to automate parking entry/exit.</p><div class="p-tags"><span>IoT</span><span>Automation</span></div></div>
+                <div class="p-card"><div class="p-year">2025</div><h3>Super-Store Analysis</h3><p>Power BI dashboard for revenue & profit trends.</p><div class="p-tags"><span>Power BI</span><span>Data Viz</span></div></div>
+                <div class="p-card"><div class="p-year">2025</div><h3>AI Chatbot (Android)</h3><p>Java-based Android app using OpenAI API.</p><div class="p-tags"><span>Java</span><span>OpenAI API</span></div></div>
+                <div class="p-card"><div class="p-year">2024</div><h3>Diamond Price Predictor</h3><p>Flask web app for diamond price forecasting.</p><div class="p-tags"><span>Scikit-learn</span><span>Flask</span></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Continuous Certification Slider -->
+    <section id="certs" class="section light-bg">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="cert-slider-container">
+                <div class="cert-slider" id="certSlider">
+                    <!-- Replace these with your actual certificate image files -->
+                    <img src="cert1.jpg" alt="Certification 1" class="cert-img active">
+                    <img src="cert2.png" alt="Certification 2" class="cert-img">
+                    <img src="cert3.png" alt="Certification 3" class="cert-img">
+                    <img src="cert4.png" alt="Certification 4" class="cert-img">
+                </div>
+                <div class="slider-dots" id="sliderDots"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="section resume-section">
+        <div class="container">
+            <h2 class="section-title">My Resume</h2>
+            <div class="resume-card">
+                <div class="resume-icon"><i class="fas fa-file-pdf"></i></div>
+                <div class="resume-info">
+                    <h3>Kripashree_Resume.pdf</h3>
+                    <!-- <p>Updated January 2025 | 145 KB</p> -->
+                </div>
+                <div class="resume-actions">
+                    <!-- Link your PDF file here -->
+                    <a href="resume.pdf" download class="btn btn-primary"><i class="fas fa-download"></i> Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Contact Section -->
+    <section id="contact" class="contact section">
+        <div class="container contact-grid">
+            <div class="contact-text">
+                <h2 class="section-title" style="text-align: left;">Let's Connect</h2>
+                <p>Have a question or a project proposal? Feel free to reach out!</p>
+                <div class="info-line"><i class="fas fa-envelope"></i> akripa481@gmail.com</div>
+                <div class="info-line"><i class="fas fa-phone"></i> +91 9731851330</div>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/kripashree21"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Kripashree403?tab=repositories"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Kripashree | Made with 💜</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
